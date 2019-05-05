@@ -6,8 +6,8 @@ Tutorial
 The whole study has been achieved with the Dataiku Data Science Studio (DSS) Free edition.  
 As a consequence, the study code and datasets are provided under a [Dataiku DSS project](../Dataiku%20DSS%20project).  
 The following tutorial should help you setup the environment for you to be able to reproduce the study.
-
-
+  
+  
 1. Install Dataiku DSS
 ----------------------
 The first step is to install, if you don't already have it, Dataiku DSS.
