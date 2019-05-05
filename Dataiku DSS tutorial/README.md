@@ -9,7 +9,6 @@ The following tutorial should help you setup the environment for you to be able 
   
   
 ## 1. Install Dataiku DSS
-----------------------
 The first step is to install, if you don't already have it, Dataiku DSS.
 It comes in [several forms](https://www.dataiku.com/dss/trynow/free-edition/) but this tutorial will be based on the `VirtualBox / VMWare` version.
 So first, follow [these steps](https://www.dataiku.com/dss/trynow/virtualbox/): the system credentials are `dataiku` for login and password
