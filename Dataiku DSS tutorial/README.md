@@ -8,7 +8,7 @@ As a consequence, the study code and datasets are provided under a [Dataiku DSS 
 The following tutorial should help you setup the environment for you to be able to reproduce the study.  
   
   
-1. Install Dataiku DSS
+## 1. Install Dataiku DSS
 ----------------------
 The first step is to install, if you don't already have it, Dataiku DSS.
 It comes in [several forms](https://www.dataiku.com/dss/trynow/free-edition/) but this tutorial will be based on the `VirtualBox / VMWare` version.
