@@ -24,15 +24,15 @@ $ sudo yum install python36
 
 ## 3. Import the custom code-environment
 This study has been achieved with Python 3 and some external dependencies (`pygithub`, `lxml`, `markdownify`, `beautifulsoup4`) so a custom Dataiku `code-environment`, which is a regular Python `virtualenv`, has been created to package everything.  
-  * 1. `Administration` > `Code envs` > `Import env`
+  * 1. `Administration` > `Code envs` > `Import env`  
     ![](images/administration.png)
     ![](images/code-env.png)
-    
+  
   * 2. Click on `Select a file` and choose the [code-environment zip file provided here](../Dataiku%20DSS%20project/adecadeofinfosectools.zip)
   
   * 3. Click on `Import`
   
-  * 4. Click on the imported code environment name `adecadeofinfosectools` > `Packages to install` > `Update`. It will download and install these dependencies.
+  * 4. Click on the imported code environment name `adecadeofinfosectools` > `Packages to install` > `Update`. It will download and install these dependencies.  
     ![](images/install_deps.png)
 
 
@@ -40,9 +40,9 @@ This study has been achieved with Python 3 and some external dependencies (`pygi
 At one stage of the study, 2000+ github repositories have been analyzed, by collecting for each, a lot of metadata (stars, forks, watchers, commit dates, etc.).  
 This has been achieved with the [`PyGithub`](https://pygithub.readthedocs.io/en/latest/introduction.html) external module, calling [Github API](https://developer.github.com/v3/).  
 Facing Github [rate limit](https://developer.github.com/v3/rate_limit/) for API calls, I created 11 different accounts (with the same password :-)) to be able to process the 2000+ repositories asynchronously in 1 hour.
-If you want to reproduce this study step, you will need to also provide account credentials, as system environment variables.
-* `Administration` > `Settings` > `Variables`
-  ![](images/github_credentials.png)
+If you want to reproduce this study step, you will need to also provide account credentials, as system environment variables.  
+  * `Administration` > `Settings` > `Variables`
+    ![](images/github_credentials.png)
 
 
 ## 5. Import the project
@@ -51,6 +51,7 @@ If you want to reproduce this study step, you will need to also provide account 
   
   2. Choose the [project zip file provided here](../Dataiku%20DSS%20project/ADECADEOFINFOSECTOOLS_20190508.zip)
     ![](images/import_project_2.png)
+  
   3. Remap `Connection`, which is the root file path of the project on the VM ; and the `Code-environment`, as is and then click on `Import`:
     ![](images/import_project_3.png)
 
