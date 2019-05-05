@@ -4,13 +4,14 @@ A decade of infosec tools
 ## Tutorial
 The whole study has been achieved with the Dataiku Data Science Studio (DSS) Free edition.  
 As a consequence, the study code and datasets are provided under a [Dataiku DSS project](../Dataiku%20DSS%20project).  
-The following tutorial should help you setup the environment for you to be able to reproduce the study.  
+The following tutorial should help you setup the environment to be able to reproduce the study.  
   
   
 ## 1. Install Dataiku DSS
 The first step is to install, if you don't already have it, Dataiku DSS.  
 It comes in [several forms](https://www.dataiku.com/dss/trynow/free-edition/) but this tutorial will be based on the `VirtualBox / VMWare` version.  
-So first, follow [these steps](https://www.dataiku.com/dss/trynow/virtualbox/): the system credentials are `dataiku` for login and password  
+So first, follow [these steps](https://www.dataiku.com/dss/trynow/virtualbox/).  
+The system credentials are `dataiku` for login and password  
 
 
 ## 2. Install Python 3.6 in the Dataiku DSS VM
@@ -46,7 +47,7 @@ If you want to reproduce this study step, you will need to also provide account 
 
 
 ## 5. Import the project
-  1. Go the Dataiku homepage and select `Import project`
+  1. Go to the Dataiku homepage and select `Import project`
     ![](images/import_project.png)
   
   2. Choose the [project zip file provided here](../Dataiku%20DSS%20project/ADECADEOFINFOSECTOOLS_20190508.zip)
@@ -60,7 +61,7 @@ The `managed_datasets` folder is there on the Dataiku DSS VM, it contains all in
 
 
 ## 6. Explore the project
-If you're reading this section, previous actions went well.
+If you're reading this section, previous actions went well.  
 You now have the full project environment, you can start exploring data and code:  
   ![](images/project_1.png)
   ![](images/project_2.png)
