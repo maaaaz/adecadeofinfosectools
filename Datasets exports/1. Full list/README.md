@@ -1,5 +1,5 @@
-A decade of infosectools
-========================
+A decade of infosec tools
+=========================
 
 Files
 -----
@@ -9,9 +9,9 @@ Files
 
 Overview
 --------
-![](overview.png)
+![](images/overview.png)
 
 
 Schema
 ------
-![](schema.png)
+![](images/schema.png)

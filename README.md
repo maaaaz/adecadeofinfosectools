@@ -1,5 +1,5 @@
-A decade of infosectools
-========================
+A decade of infosec tools
+=========================
 
 Outline
 -------
@@ -18,7 +18,7 @@ Changelog
 Copyright and license
 ---------------------
 * The Dataiku DSS project code is free software you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version
-* All trademarks, service marks, trade names and product names appearing on this repository are the property of their respective owners
+* All trademarks, service marks, trade names, product names and project names appearing on this repository and in the study are the property of their respective owners
 
 
 Contact
