@@ -65,6 +65,8 @@ If you're reading this section, previous actions went well.
 You now have the full project environment, you can start exploring data and code:  
   ![](images/project_1.png)
   ![](images/project_2.png)
+  
+The datasets to specifically inspect are [those exported here](../Datasets%20exports).
 
 
 ## 7. Going further with Dataiku DSS
