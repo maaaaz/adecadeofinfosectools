@@ -24,7 +24,7 @@ $ sudo yum install python36
 
 
 ## 3. Import the custom code-environment
-This study has been achieved with Python 3 and some external dependencies (`pygithub`, `lxml`, `markdownify`, `beautifulsoup4`) so a custom Dataiku `code-environment`, which is a regular Python `virtualenv`, has been created to package everything.  
+This study has been achieved with Python 3 and some external dependencies (`pygithub`, `lxml`, `markdownify`, `beautifulsoup4`, `safety`) so a custom Dataiku `code-environment`, which is a regular Python `virtualenv`, has been created to package everything.  
   1. `Administration` > `Code envs` > `Import env`  
     ![](images/administration.png)
     ![](images/code-env.png)
@@ -38,19 +38,35 @@ This study has been achieved with Python 3 and some external dependencies (`pygi
 
 
 ## 4. (optional) Set Github credentials as environment variables
-At one stage of the study, 2000+ github repositories have been analyzed, by collecting for each, a lot of metadata (stars, forks, watchers, commit dates, etc.).  
+At one stage of the study, 2300+ github repositories have been analyzed, by collecting for each, a lot of metadata (stars, forks, watchers, commit dates, etc.).  
 This has been achieved with the [`PyGithub`](https://pygithub.readthedocs.io/en/latest/introduction.html) external module, calling [Github API](https://developer.github.com/v3/).  
-Facing Github [rate limit](https://developer.github.com/v3/rate_limit/) for API calls, I created 11 different accounts (with the same password :-)) to be able to process the 2000+ repositories asynchronously in 1 hour.  
+Facing Github [rate limit](https://developer.github.com/v3/rate_limit/) for API calls, I created 12 different accounts (with the same password :-)) to be able to process the 2300+ repositories asynchronously in (less than) 1 hour.  
 If you want to reproduce this study step, you will need to also provide account credentials, as system environment variables.  
   * `Administration` > `Settings` > `Variables`
     ![](images/github_credentials.png)
-
+    ```
+    {
+      "github_password": "<password>",
+      "github_username_1": "<username>",
+      "github_username_2": "<username>",
+      "github_username_3": "<username>",
+      "github_username_4": "<username>",
+      "github_username_5": "<username>",
+      "github_username_6": "<username>",
+      "github_username_7": "<username>",
+      "github_username_8": "<username>",
+      "github_username_9": "<username>",
+      "github_username_10": "<username>",
+      "github_username_11": "<username>",
+      "github_username_12": "<username>"
+    }
+    ```
 
 ## 5. Import the project
   1. Go to the Dataiku homepage and select `Import project`
     ![](images/import_project.png)
   
-  2. Choose the [project zip file provided here](../Dataiku%20DSS%20project/ADECADEOFINFOSECTOOLS_20190508.zip)
+  2. Choose the [project zip file provided here](../Dataiku%20DSS%20project/ADECADEOFINFOSECTOOLS_20191020.zip)
     ![](images/import_project_2.png)
   
   3. Remap `Connection`, which is the root file path of the project on the VM ; and the `Code-environment`, as is and then click on `Import`:  
